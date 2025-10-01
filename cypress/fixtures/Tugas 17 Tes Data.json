@@ -1,0 +1,30 @@
+{
+    "validData": {
+        "username": "Admin",
+        "password": "admin123"
+    },
+    "invalidUsername": {
+        "username": "iniadmin",
+        "password": "admin123"
+    },
+    "invalidPassword": {
+        "username": "Admin",
+        "password": "admin1234"
+    },
+    "emptyData": {
+        "username": "",
+        "password": ""
+    },
+    "onlyUsername": {
+        "username": "Admin",
+        "password": ""
+    },
+    "onlyPassword": {
+        "username": "",
+        "password": "admin123"
+    },
+    "insensitiveCase": {
+        "username" : "ADMIN",
+        "password" : "admin123"
+    }
+}
