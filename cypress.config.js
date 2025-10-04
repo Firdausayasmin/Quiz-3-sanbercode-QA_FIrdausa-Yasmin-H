@@ -1,9 +1,12 @@
 const { defineConfig } = require("cypress");
 
-module.exports = defineConfig({
+module.exports = {
   e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
-  },
-});
+    pageLoadTimeout: 120000,
+    defaultCommandTimeout: 10000,
+    requestTimeout: 15000, 
+    responseTimeout: 15000, 
+    baseUrl: "https://opensource-demo.orangehrmlive.com"
+  }
+}
+
